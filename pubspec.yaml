@@ -1,0 +1,81 @@
+name: flutter_project_boilerplate
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.3
+  redux: ^4.0.0
+  flutter_redux: ^0.6.0
+  injector: ^1.0.8
+  http: ^0.12.0+2
+  json_serializable: ^3.2.5
+  copy_with_extension: ^1.0.7
+  cached_network_image: ^2.0.0-rc
+  rxdart: ^0.23.0
+  equatable: ^1.1.0
+  after_layout: ^1.0.7+2
+  dio: ^3.0.9
+  intl: ^0.16.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mockito: ^4.1.1
+  build_runner: ">=1.0.0 <2.0.0"
+  copy_with_extension_gen: ^1.0.7
+
+flutter:
+
+  uses-material-design: true
+
+  # Assets
+  assets:
+    - res/images/
+    - res/values/
+
+  fonts:
+    - family: Nunito
+      fonts:
+        - asset: res/fonts/nunito/NunitoSans-Regular.ttf
+          weight: 400
+        - asset: res/fonts/nunito/NunitoSans-Italic.ttf
+          weight: 400
+          style: italic
+        - asset: res/fonts/nunito/NunitoSans-ExtraLight.ttf
+          weight: 200
+        - asset: res/fonts/nunito/NunitoSans-ExtraLightItalic.ttf
+          weight: 200
+          style: italic
+        - asset: res/fonts/nunito/NunitoSans-Light.ttf
+          weight: 300
+        - asset: res/fonts/nunito/NunitoSans-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: res/fonts/nunito/NunitoSans-SemiBold.ttf
+          weight: 600
+        - asset: res/fonts/nunito/NunitoSans-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+        - asset: res/fonts/nunito/NunitoSans-Bold.ttf
+          weight: 700
+        - asset: res/fonts/nunito/NunitoSans-ExtraBoldItalic.ttf
+          weight: 800
+          style: italic
+        - asset: res/fonts/nunito/NunitoSans-ExtraBoldItalic.ttf
+          weight: 800
+          style: italic
+        - asset: res/fonts/nunito/NunitoSans-BlackItalic.ttf
+          weight: 900
+          style: italic
+        - asset: res/fonts/nunito/NunitoSans-BlackItalic.ttf
+          weight: 900
+          style: italic

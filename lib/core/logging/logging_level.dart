@@ -1,0 +1,1 @@
+enum LoggingLevel { verbose, info, warning, error }
